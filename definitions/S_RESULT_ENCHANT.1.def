@@ -1,0 +1,7 @@
+# majorPatchVersion < 79
+
+uint32 contract
+bool   success
+uint64 dbid
+int32  id
+int32  enchant
