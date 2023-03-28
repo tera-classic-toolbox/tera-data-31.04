@@ -1,0 +1,28 @@
+uint64 id
+int32  weapon
+int32  chest
+int32  gloves
+int32  boots
+int32  innerwear
+int32  head
+int32  face
+int32  weaponModel
+int32  chestModel
+int32  glovesModel
+int32  bootsModel
+int32  weaponDye # ?
+int32  chestDye
+int32  glovesDye
+int32  bootsDye
+int32  unk1
+int32  unk2
+int32  unk3
+int32  unk4
+int32  weaponEnchant
+int32  hairAdornment
+int32  mask
+int32  back
+int32  weaponSkin
+int32  costume
+int32  costumeDye
+byte   enable   # enables skin, hair adornment, mask, and costume (back is always on)
