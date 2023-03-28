@@ -1,5 +1,0 @@
-bool success
-uint32 usedPoints
-array perks
-- uint32 id
-- uint32 level
