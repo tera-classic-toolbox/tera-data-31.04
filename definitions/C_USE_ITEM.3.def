@@ -1,9 +1,8 @@
-# majorPatchVersion == 27
-
 uint64 gameId
 int32  id
 uint64 dbid
 uint64 target
+int32  amount
 vec3   dest
 vec3   loc
 angle  w
