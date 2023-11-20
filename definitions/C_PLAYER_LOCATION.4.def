@@ -1,6 +1,5 @@
 vec3   loc
 angle  w
-angle  lookDirection # Your w direction but while in an action that allows you to look around example: Gunner Blast/Arcane Barrage
 vec3   dest
 int32  type
 # 0 = running, 1 = walking, 2 = falling, 5 = jumping,
