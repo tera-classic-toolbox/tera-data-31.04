@@ -1,4 +1,4 @@
-﻿# majorPatchVersion == 27
+﻿# majorPatchVersion == 31
 
 uint64    gameId
 vec3      loc
@@ -9,6 +9,7 @@ int32     stage
 float     speed
 uint32    id
 float     effectScale # Only applied if corresponding bChangeAbleScaleByRange == true in SkillEffectData
+bool      moving # Only applied if OverrideMovingAnimId > 0 in SkillData
 
 array     animSeq
 - int32   duration
