@@ -1,4 +1,4 @@
-# majorPatchVersion == 27
+# majorPatchVersion == 31
 
 uint32 serverId
 uint32 playerId
@@ -39,6 +39,10 @@ uint32 weaponDye # ignored
 uint32 bodyDye
 uint32 handDye
 uint32 feetDye
+uint32 underwearDye
+uint32 styleBackDye
+uint32 styleHeadDye
+uint32 styleFaceDye
 uint32 weaponEnchant
 bool   isWorldEventTarget
 bool   pkEnabled
@@ -61,10 +65,7 @@ bool   showStyle
 int64  titleCount
 int32  appearance2
 float  scale
-
-array  icons
-- int32 icon
-
+array<int32> icons
 string name
 string guildName
 string guildRank
