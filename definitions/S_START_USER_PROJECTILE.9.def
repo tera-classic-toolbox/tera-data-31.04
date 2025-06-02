@@ -1,4 +1,4 @@
-# majorPatchVersion == 27
+# majorPatchVersion == 31
 
 uint64 gameId
 int32  templateId
@@ -8,3 +8,5 @@ skillid32 skill # requires type: 0, npc: false (implies huntingZoneId: 0), and r
 vec3   loc
 vec3   dest
 float  speed
+float  distance
+bool   curve
