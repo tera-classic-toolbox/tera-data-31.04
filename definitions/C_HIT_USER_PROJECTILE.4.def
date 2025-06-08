@@ -1,4 +1,6 @@
 uint64 id
+bool   end
+vec3   loc
 
 array  targets
 - uint64 gameId
