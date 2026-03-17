@@ -1,4 +1,6 @@
-# majorPatchVersion == 27
+# majorPatchVersion == 31
+
+ref items 
 
 uint64 gameId
 int64  gold
@@ -12,6 +14,9 @@ int64  tcat
 int32  brokerUseTcat
 
 array items
+- ref passivities
+- ref customString
+
 - int32  id
 - uint64 dbid
 - uint64 ownerId # playerId
@@ -43,8 +48,12 @@ array items
 - int32  enchantBonus # % x 100 (added to enchantAdvantage + displayed separately)
 - int32  enchantBonusMaxPlus
 - uint64 boundToPlayer # playerId
+- bool   awakened
+- int32  liberation
+- int32  feedstock
+- int32  unk_extra
+
+- string customString
 
 - array  passivities
 - - int32 id
-
-- string customString

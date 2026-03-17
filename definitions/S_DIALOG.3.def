@@ -1,7 +1,8 @@
+int32       unk
 uint64      gameId
 uint32      type
-uint32      key1
-uint32      key2
+uint32      templateId
+uint32      huntingZoneId
 uint32      questTaskId
 uint32      textId
 uint32      id
@@ -20,7 +21,6 @@ int32       maxRepeatCount
 bool        additionalRewardEvent
 
 array       buttons
-- uint32    id
 - uint32    index
 - uint32    type
 - string    text
